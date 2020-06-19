@@ -22,7 +22,8 @@ $(document).ready(function () {
         $("html, body").animate({ scrollTop: $(".js--section-features").offset().top }, 1000);
     });
 
-    /*Navigation scroll: Este codigo é útil para fazer a gerenciar as solicitações de informações: Por exemplo: Quando clico em sign up ele vai directo dos planos. No index foi necessário: #plans e criar um id no section plans com o mesmo nome*/
+    /*Navigation scroll: Este codigo é útil para fazer a gerenciar as solicitações de informações: Por exemplo: Quando clico em sign up ele vai directo dos planos. No index foi necessário: #plans e criar um id no section plans com o mesmo nome
+    link: https://css-tricks.com/snippets/jquery/smooth-scrolling/*/
     $('a[href*="#"]')
         // Remove links that don't actually link to anything
         .not('[href="#"]')
